@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Football LiveScore</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>⚽ Football LiveScore</h1>
+        <p>Live football scores and match updates</p>
+    </header>
+
+    <main>
+       
+
+
+</div>
+
+    <!-- SEARCH -->
+
+    <div class="search-box">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="🔎 Search team or league..."
+        >
+
+    </div>
+
+
+    <!-- FILTER BUTTONS -->
+
+    <div class="filters">
+
+        <button onclick="filterMatches('ALL')">
+            All
+        </button>
+
+        <button onclick="filterMatches('LIVE')">
+            🔴 Live
+        </button>
+
+        <button onclick="filterMatches('UPCOMING')">
+            🔜 Upcoming
+        </button>
+
+        <button onclick="filterMatches('FINISHED')">
+            ✅ Finished
+        </button>
+        <button onclick="filterMatches('FAVORITES')">
+            ⭐ Favorites
+        </button>
+
+    </div>
+
+
+    <!-- MATCHES -->
+
+    <div id="matches"></div>
+
+</main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
